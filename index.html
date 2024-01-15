@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Juan Careaga</title>
+
+    <link rel="icon" href="img/LOGO.png" />
+    <!-- load CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+    </style>
+
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <!-- http://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+    <!-- Templatemo style -->
+
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this in a modern browser such as latest version of Chrome or Microsoft Edge."
+        );
+    </script>
+  </head>
+
+  <body>
+    <div id="tm-bg">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="tm-wrap">
+      <div class="tm-main-content">
+        <div class="container tm-site-header-container">
+          <div class="row">
+            <div
+              class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col"
+            >
+              <div class="tm-site-header">
+                <h1 class="mb-4">
+                  <span><img src="img/LOGO.png" class="img-fluid logo" /></span>
+                  JUAN CAREAGA
+                </h1>
+                <img src="img/underline.png" class="img-fluid mb-4" />
+
+                <p>Diseñador UX / FrontEnd Dev</p>
+                <div class="redes">
+                  <a
+                    href="https://www.linkedin.com/in/juan-manuel-careaga/"
+                    target="_blank"
+                    ><img src="img/LINKEDIN.png" class="icono-red"
+                  /></a>
+                  <a href="https://github.com/JuanMCareaga" target="_blank"
+                    ><img src="img/github.png" class="icono-red"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <div class="content">
+                <div class="grid">
+                  <div class="grid__item" id="home-link">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-address-card fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Información</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="row mb-3">
+                          <div class="col-12">
+                            <h2 class="tm-page-title">Datos importantes</h2>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <img src="img/juancho.jpg" class="img-fluid mb-3" />
+                            <p class="dato-info">
+                              <i class="fas fa-address-card dato"> </i>Juan
+                              Manuel Careaga
+                            </p>
+                            <p class="dato-info">
+                              <i class="fa fa-birthday-cake dato"> </i> 10 / 04
+                              / 1994
+                            </p>
+                            <p class="dato-info">
+                              <i class="fas fa-envelope dato"></i
+                              >Juanmcareaga@gmail.com
+                            </p>
+                            <p class="dato-info">
+                              <i class="fas fa-phone dato"> </i> 011 3801-0146
+                            </p>
+                          </div>
+                          <br />
+
+                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <br />
+                            <p class="dato-info">
+                              <i class="fas fa-home dato"> </i> Calle 603 n°
+                              1850
+                            </p>
+                            <p class="dato-info">
+                              <i class="fas fa-flag dato"> </i> Buenos Aires,
+                              Argentina
+                            </p>
+                            <p class="dato-info">
+                              <i class="fas fa-university dato"> </i> Udemy
+                              Academy
+                            </p>
+                            <br /><br />
+                            <img src="img/portada.jpg" class="img-fluid" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item" id="team-link">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-user fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Sobre mi</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="p-sm-4 p-2">
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h2 class="tm-page-title">Sobre mi</h2>
+                            </div>
+                          </div>
+                          <div class="row tm-reverse-sm">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                              <p class="mb-4">
+                                Hola! Yo soy Juan Careaga, Diseñador de
+                                experiencias del usuario e interfaces del
+                                usuario.
+                              </p>
+                              <p class="mb-4">
+                                Domino herramientas de diseño como Figma, Canva,
+                                Adobe Photoshop e Illustrator. A su vez poseo
+                                habilidades concretas en lenguajes de
+                                programación, de maquetado y estilos, HTML5,
+                                CSS3 y JAVASCRIPT. Tengo experiencias trabajando
+                                con BOOTSTRAP y REACT.
+                              </p>
+                              <p class="mb-5">
+                                Para mas información, te invito a descargar mi
+                                Curriculum donde doy más detalles de mi
+                                formación y experiencias laborales.
+                              </p>
+                              <a
+                                href="PDF/CV  JUAN CAREAGA 2024.pdf"
+                                download="Juan Careaga CV"
+                                class="btn tm-btn-gray"
+                                target="_blank"
+                                >Descargar CV</a
+                              >
+                            </div>
+                            <div
+                              class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4"
+                            >
+                              <img src="img/perfil.jpeg" class="img-fluid" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-suitcase fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Mis trabajos</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="p-sm-4 p-2">
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h2 class="tm-page-title">Mi experiencia</h2>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <p>
+                                He trabajado en varios proyectos en los que me
+                                desempeñe como diseñador y desarrollador. A su
+                                vez, he trabajado en labores de mantenimientos
+                                de sitios, incluidos los realizados en
+                                Wordpress. He aqui mis trabajos mas importantes.
+                                Haciendo click en la imagen podran verlos en
+                                linea.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="p-sm-4 p-2">
+                                <div class="tm-img-slider" id="tmImgSlider">
+                                  <a
+                                    href="https://strategymastersit.com/"
+                                    target="_blank"
+                                  >
+                                    <img
+                                      src="img/SM.jpg"
+                                      alt="Image"
+                                      class="tm-slider-img"
+                                    />
+                                  </a>
+                                  <a href="">
+                                    <img
+                                      src="img/sg6.jpg"
+                                      alt="Image"
+                                      class="tm-slider-img"
+                                    />
+                                  </a>
+                                  <a
+                                    href="https://www.figma.com/proto/Gkzt0vLp8X63YeBEFMDAj9/Prototipo-en-Alta?node-id=117-529&starting-point-node-id=12%3A428&scaling=scale-down"
+                                    target="_blank"
+                                  >
+                                    <img
+                                      src="img/xdonde.jpg"
+                                      alt="Image"
+                                      class="tm-slider-img"
+                                    />
+                                  </a>
+                                  <a
+                                    href="https://solaravellaneda.com.ar/"
+                                    target="_blank"
+                                  >
+                                    <img
+                                      src="img/SOLARIUM.jpg"
+                                      alt="Image"
+                                      class="tm-slider-img"
+                                    />
+                                  </a>
+                                  <a
+                                    href="https://www.distribuidorasibon.com.ar/"
+                                    target="_blank"
+                                  >
+                                    <img
+                                      src="img/sibon.jpg"
+                                      alt="Image"
+                                      class="tm-slider-img"
+                                    />
+                                  </a>
+                                  <a
+                                    href="https://safelaplata.netlify.app/#"
+                                    target="_blank"
+                                  >
+                                    <img
+                                      src="img/safe.jpg"
+                                      alt="Image"
+                                      class="tm-slider-img"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-comments fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Contacto</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div
+                          class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3"
+                        >
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h2 class="tm-page-title">Contactame</h2>
+                            </div>
+                          </div>
+
+                          <div class="row mb-4">
+                            <div class="col-12">
+                              <p>
+                                Si estas interesado en conocer más acerca de mí
+                                o mis trabajos o quisieras que realice algun
+                                encargo personalizado, no dudes en contactarme.
+                                Puedes hacerlo a través de mis redes que te dejo
+                                a continuación, o bien, clickeando en el boton
+                                para enviarme un E-mail que te contestare a la
+                                brevedad.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="redes">
+                            <a
+                              href="https://www.linkedin.com/in/juan-manuel-careaga/"
+                              target="_blank"
+                              ><img src="img/LINKEDIN.png" class="icono-red"
+                            /></a>
+                            <a
+                              href="https://github.com/JuanMCareaga"
+                              target="_blank"
+                              ><img src="img/github.png" class="icono-red"
+                            /></a>
+                            <a
+                              href="https://api.whatsapp.com/send?phone=541138010146&text=Hola,%20Me%20interesaria%20pactar%20una%20entrevista."
+                              target="_blank"
+                              ><img src="img/wsp.png" class="icono-red"
+                            /></a>
+                            <a
+                              href="https://www.behance.net/juanmacareaga"
+                              target="_blank"
+                              ><img src="img/behance.png" class="icono-red"
+                            /></a>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-12">
+                              <a
+                                href="mailto:juanmcareaga@gmail.com?subject=&body=Cuerpo del correo"
+                              >
+                                <button type="submit" class="btn btn-primary">
+                                  Enviar E-MAIL
+                                </button></a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item" id="home-link">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-cubes fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Tecnologias</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="row mb-3">
+                          <div class="col-12">
+                            <h2 class="tm-page-title">Mis herramientas</h2>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <img
+                              src="img/html.png"
+                              class="img-fluid mb-3 tec"
+                            />
+                            <img src="img/css.png" class="img-fluid mb-3 tec" />
+                            <img src="img/js.png" class="img-fluid mb-3 tec" />
+                            <img src="img/GIT.png" class="img-fluid mb-3 tec" />
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <img
+                              src="img/figma.png"
+                              class="img-fluid mb-3 tec"
+                            />
+                            <img
+                              src="img/adobei.png"
+                              class="img-fluid mb-3 tec"
+                            />
+                            <img
+                              src="img/react.png"
+                              class="img-fluid mb-3 tec"
+                            />
+                            <img
+                              src="img/node.png"
+                              class="img-fluid mb-3 tec"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex">
+            <audio
+              autoplay
+              controls
+              loop
+              src="musica/chillout-chillstep-music-for-focus-enhance-your-concentration.mp3"
+            ></audio>
+            <p style="padding-left: 10px; padding-top: 10px">Música</p>
+          </div>
+        </div>
+
+        <footer></footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- load JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <!-- https://jquery.com/ -->
+    <script src="slick/slick.min.js"></script>
+    <!-- http://kenwheeler.github.io/slick/ -->
+    <script src="js/anime.min.js"></script>
+    <!-- http://animejs.com/ -->
+    <script src="js/main.js"></script>
+    <script>
+      function setupFooter() {
+        var pageHeight =
+          $(".tm-site-header-container").height() + $("footer").height() + 100;
+
+        var main = $(".tm-main-content");
+
+        if ($(window).height() < pageHeight) {
+          main.addClass("tm-footer-relative");
+        } else {
+          main.removeClass("tm-footer-relative");
+        }
+      }
+
+      /* DOM is ready
+        ------------------------------------------------*/
+      $(function () {
+        setupFooter();
+
+        $(window).resize(function () {
+          setupFooter();
+        });
+
+        $(".tm-current-year").text(new Date().getFullYear()); // Update year in copyright
+      });
+    </script>
+  </body>
+</html>
