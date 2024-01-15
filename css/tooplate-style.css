@@ -385,7 +385,7 @@ p:last-child {
   }
 
   .dato-info {
-    font-size: smaller;
+    font-size: 11px;
   }
 }
 
@@ -429,8 +429,8 @@ p:last-child {
 }
 
 .icono-red:hover {
-  background-color: aliceblue;
   border-radius: 50px;
+  background-color: antiquewhite;
 }
 
 @media (max-width: 544px) {
@@ -483,7 +483,7 @@ p:last-child {
   }
 
   .tm-slider-img {
-    height: 120px;
+    height: 110px;
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
