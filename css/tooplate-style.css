@@ -404,6 +404,7 @@ p:last-child {
   }
   .grid {
     justify-content: flex-end;
+    margin-top: -50px;
   }
   .tm-col-email {
     padding-left: 15px;
@@ -442,6 +443,7 @@ p:last-child {
   }
   .slick-dots li button:before {
     font-size: 15px;
+    display: none;
   }
 
   footer {
